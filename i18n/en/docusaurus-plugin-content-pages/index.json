@@ -1,0 +1,50 @@
+{
+  "homepage.title": {
+    "message": "PyServe - Lightweight HTTP Server",
+    "description": "The page title for the homepage"
+  },
+  "homepage.description": {
+    "message": "PyServe is a lightweight and fast HTTP server written in Python for quick deployment and serving static files",
+    "description": "The page description for the homepage"
+  },
+  "homepage.tagline": {
+    "message": "Lightweight and Fast HTTP Server in Python",
+    "description": "The tagline for PyServe homepage"
+  },
+  "homepage.hero.title": {
+    "message": "PyServe",
+    "description": "The hero title on homepage"
+  },
+  "homepage.hero.getStarted": {
+    "message": "Get Started - 5min ⏱️",
+    "description": "The main CTA button text"
+  },
+  "homepage.hero.viewGitHub": {
+    "message": "View on GitHub",
+    "description": "The GitHub button text"
+  },
+  "homepage.feature.quickStart.title": {
+    "message": "Quick Start",
+    "description": "The title of the Quick Start feature"
+  },
+  "homepage.feature.quickStart.description": {
+    "message": "Launch the server with a single command and get to work. PyServe is designed for rapid deployment and minimal configuration.",
+    "description": "The description of the Quick Start feature"
+  },
+  "homepage.feature.staticFiles.title": {
+    "message": "Static Files",
+    "description": "The title of the Static Files feature"
+  },
+  "homepage.feature.staticFiles.description": {
+    "message": "Serve HTML, CSS, JavaScript and other static files efficiently. Perfect for hosting static websites, documentation, and web applications.",
+    "description": "The description of the Static Files feature"
+  },
+  "homepage.feature.logging.title": {
+    "message": "Built-in Logging",
+    "description": "The title of the Built-in Logging feature"
+  },
+  "homepage.feature.logging.description": {
+    "message": "Beautiful built-in logging of all requests with detailed information. Monitor your server activity with comprehensive request tracking.",
+    "description": "The description of the Built-in Logging feature"
+  }
+}

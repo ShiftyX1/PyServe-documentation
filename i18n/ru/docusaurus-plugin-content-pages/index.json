@@ -1,0 +1,50 @@
+{
+  "homepage.title": {
+    "message": "PyServe - Легковесный HTTP-сервер",
+    "description": "The page title for the homepage"
+  },
+  "homepage.description": {
+    "message": "PyServe — это легковесный и быстрый HTTP-сервер, написанный на Python для быстрого развертывания и обслуживания статических файлов",
+    "description": "The page description for the homepage"
+  },
+  "homepage.tagline": {
+    "message": "Легковесный и быстрый HTTP-сервер на Python",
+    "description": "The tagline for PyServe homepage"
+  },
+  "homepage.hero.title": {
+    "message": "PyServe",
+    "description": "The hero title on homepage"
+  },
+  "homepage.hero.getStarted": {
+    "message": "Начать работу - 5мин ⏱️",
+    "description": "The main CTA button text"
+  },
+  "homepage.hero.viewGitHub": {
+    "message": "Посмотреть на GitHub",
+    "description": "The GitHub button text"
+  },
+  "homepage.feature.quickStart.title": {
+    "message": "Быстрый старт",
+    "description": "The title of the Quick Start feature"
+  },
+  "homepage.feature.quickStart.description": {
+    "message": "Запуск сервера одной командой с минимальной настройкой. PyServe создан для быстрого развертывания и минимальной конфигурации.",
+    "description": "The description of the Quick Start feature"
+  },
+  "homepage.feature.staticFiles.title": {
+    "message": "Статические файлы",
+    "description": "The title of the Static Files feature"
+  },
+  "homepage.feature.staticFiles.description": {
+    "message": "Эффективное обслуживание HTML, CSS, JavaScript и других статических файлов. Идеально подходит для хостинга статических веб-сайтов, документации и веб-приложений.",
+    "description": "The description of the Static Files feature"
+  },
+  "homepage.feature.logging.title": {
+    "message": "Встроенное логирование",
+    "description": "The title of the Built-in Logging feature"
+  },
+  "homepage.feature.logging.description": {
+    "message": "Красивое встроенное логирование всех запросов с подробной информацией. Мониторинг активности сервера с полным отслеживанием запросов.",
+    "description": "The description of the Built-in Logging feature"
+  }
+}

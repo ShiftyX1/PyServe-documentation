@@ -1,0 +1,19 @@
+announcement:
+  label: Объявления
+  permalink: /announcement
+  description: Важные объявления и новости проекта
+
+documentation:
+  label: Документация
+  permalink: /documentation
+  description: Обновления и улучшения документации
+
+website:
+  label: Веб-сайт
+  permalink: /website
+  description: Новости о веб-сайте и интерфейсе
+
+launch:
+  label: Запуск
+  permalink: /launch
+  description: Запуски новых функций и сервисов

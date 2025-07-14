@@ -1,0 +1,8 @@
+{
+  "label": "Installation & Setup",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Get started with PyServe installation and basic configuration."
+  }
+}

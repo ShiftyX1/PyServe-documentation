@@ -1,0 +1,8 @@
+{
+  "label": "Установка и настройка",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Начните работу с установкой PyServe и базовой конфигурацией."
+  }
+}

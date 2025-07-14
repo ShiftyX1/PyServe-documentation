@@ -1,0 +1,17 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  filter: grayscale(100%);
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .featureSvg {
+  filter: grayscale(100%) invert(1) brightness(0.8);
+}

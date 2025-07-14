@@ -1,0 +1,142 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Primary colors - monochrome theme */
+  --ifm-color-primary: #0d1114;
+  --ifm-color-primary-dark: #263446;
+  --ifm-color-primary-darker: #232f3e;
+  --ifm-color-primary-darkest: #1d2733;
+  --ifm-color-primary-light: #34495e;
+  --ifm-color-primary-lighter: #394f66;
+  --ifm-color-primary-lightest: #485870;
+  
+  /* Background and text colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
+  --ifm-color-emphasis-100: #f5f6fa;
+  --ifm-color-emphasis-200: #e4e6ea;
+  --ifm-color-emphasis-300: #d0d7de;
+  --ifm-color-emphasis-400: #8c959f;
+  --ifm-color-emphasis-600: #656d76;
+  --ifm-color-emphasis-700: #424a53;
+  --ifm-color-emphasis-800: #32383f;
+  --ifm-color-emphasis-900: #24292f;
+  
+  /* Code styling */
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #f6f8fa;
+  --ifm-code-color: #24292f;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Hero section */
+  --ifm-hero-background-color: var(--ifm-color-primary);
+  --ifm-hero-text-color: #ffffff;
+}
+
+/* Dark mode theme */
+[data-theme='dark'] {
+  /* Primary colors for dark mode */
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #d9d9d9;
+  --ifm-color-primary-darkest: #b3b3b3;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  
+  /* Background and text colors for dark mode */
+  --ifm-background-color: #1c1c1e;
+  --ifm-background-surface-color: #2c2c2e;
+  --ifm-color-emphasis-100: #2c2c2e;
+  --ifm-color-emphasis-200: #3a3a3c;
+  --ifm-color-emphasis-300: #48484a;
+  --ifm-color-emphasis-400: #636366;
+  --ifm-color-emphasis-600: #8e8e93;
+  --ifm-color-emphasis-700: #aeaeb2;
+  --ifm-color-emphasis-800: #c7c7cc;
+  --ifm-color-emphasis-900: #f2f2f7;
+  
+  /* Code styling for dark mode */
+  --ifm-code-background: #2c2c2e;
+  --ifm-code-color: #f2f2f7;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  
+  /* Hero section for dark mode */
+  --ifm-hero-background-color: #1c1c1e;
+  --ifm-hero-text-color: #ffffff;
+}
+
+/* Custom PyServe styles */
+.hero__title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* Feature cards styling */
+.col {
+  margin-bottom: 2rem;
+}
+
+.col h3 {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* GitHub button styling */
+.button--outline {
+  border: 2px solid currentColor;
+  background: transparent;
+}
+
+.button--outline:hover {
+  background: currentColor;
+  color: white;
+}
+
+/* Code blocks */
+.theme-code-block {
+  margin: 1.5rem 0;
+}
+
+/* Dark mode specific adjustments */
+[data-theme='dark'] .hero__title,
+[data-theme='dark'] .hero__subtitle {
+  color: #000000;
+}
+
+[data-theme='dark'] .col h3 {
+  color: var(--ifm-color-primary);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .buttons .button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
