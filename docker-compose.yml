@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  pyserve-docs:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: pyserve-docs
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    networks:
+      - pyserve_pyserve-network
+
+networks:
+  pyserve_pyserve-network:
+    external: true

@@ -1,0 +1,16 @@
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# Build artifacts
+build/
+dist/
+
+# Logs
+*.log
+logs/
+
+# SSL certificates (если используются)
+ssl/
