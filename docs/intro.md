@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# PyServe v0.4.1
+# PyServe v0.4.2
 
 Modern Async HTTP Server with AI-Powered Content Generation
 

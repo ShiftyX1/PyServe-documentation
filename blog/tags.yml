@@ -17,3 +17,8 @@ launch:
   label: Запуск
   permalink: /launch
   description: Запуски новых функций и сервисов
+
+release:
+  label: Релиз
+  permalink: /release
+  description: Обновления и новые релизы проекта

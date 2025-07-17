@@ -4,11 +4,11 @@ sidebar_position: 3
 
 # API Reference
 
-Complete API documentation of PyServe v0.4.1 for developers
+Complete API documentation of PyServe v0.4.2 for developers
 
 ## Core Components
 
-PyServe v0.4.1 is built with a modular architecture, providing several core components that can be used independently or together.
+PyServe v0.4.2 is built with a modular architecture, providing several core components that can be used independently or together.
 
 ### AsyncHTTPServer
 
@@ -257,7 +257,7 @@ from pyserve.core.exceptions import (
 
 ## Vibe-Serving Components
 
-New in v0.4.1: AI-powered content generation components for dynamic web pages.
+New in v0.4.2: AI-powered content generation components for dynamic web pages.
 
 ### VibeService
 

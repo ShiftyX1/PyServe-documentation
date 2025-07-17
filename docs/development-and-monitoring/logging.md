@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Logging
 
-Learn how to configure and use the enhanced PyServe v0.4.1 logging system
+Learn how to configure and use the enhanced PyServe v0.4.2 logging system
 
 ## Logging Overview
 
-PyServe v0.4.1 includes a completely redesigned logging system with enhanced features:
+PyServe v0.4.2 includes a completely redesigned logging system with enhanced features:
 
 - Modular logging architecture with separate formatters and handlers
 - Colored console output for better visibility

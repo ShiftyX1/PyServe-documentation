@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ShiftyX1/PyServe/tree/main/docs/',
+            'https://github.com/ShiftyX1/PyServe-documentation/tree/master',
         },
         blog: {
           showReadingTime: true,
@@ -66,7 +66,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ShiftyX1/PyServe/tree/main/docs/',
+            'https://github.com/ShiftyX1/PyServe-documentation/tree/master',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',

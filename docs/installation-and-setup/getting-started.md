@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started
 
-Quick guide to get up and running with PyServe v0.4.1
+Quick guide to get up and running with PyServe v0.4.2
 
 ## Installation
 
@@ -33,7 +33,7 @@ PyServe is a pure Python application with minimal dependencies. Follow these ste
    ```
 
 :::info
-**Note:** PyServe v0.4.1 requires Python 3.7+ and now uses modern async/await syntax throughout.
+**Note:** PyServe v0.4.2 requires Python 3.7+ and now uses modern async/await syntax throughout.
 :::
 
 ## Basic Usage
@@ -117,7 +117,7 @@ When exposing PyServe to the internet, ensure you understand the security implic
 
 ## Environment Variables
 
-PyServe v0.4.1 supports environment variables for configuration:
+PyServe v0.4.2 supports environment variables for configuration:
 
 | Environment Variable | Configuration Key | Default |
 |---------------------|-------------------|---------|
