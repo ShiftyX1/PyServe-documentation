@@ -1,4 +1,4 @@
-# PyServe Documentation
+# PyServe Documentation 
 
 This repository contains the official documentation for PyServe - a lightweight and fast HTTP server written in Python.
 
